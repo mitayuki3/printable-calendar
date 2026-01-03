@@ -21,6 +21,9 @@ importers:
       '@rsbuild/core':
         specifier: ^1.7.1
         version: 1.7.1
+      '@rsbuild/plugin-babel':
+        specifier: ^1.0.6
+        version: 1.0.6(@rsbuild/core@1.7.1)
       '@rsbuild/plugin-solid':
         specifier: ^1.0.6
         version: 1.0.6(@babel/core@7.28.5)(@rsbuild/core@1.7.1)(solid-js@1.9.10)
